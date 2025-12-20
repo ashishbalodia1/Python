@@ -1,5 +1,4 @@
 # WAP Count digits in a number
-
 n=12357
 count=0
 

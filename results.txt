@@ -1,0 +1,6 @@
+Name and Score of students...
+Student name is Ashish and score is 99
+Student name is Ayush  and score is 55
+Student name is Vivek  and score is 90
+Student name is Devansh and score is 54
+Student name is Ajay and score is 85

@@ -17,3 +17,5 @@ if checkprime(num):
     print(num," is prime number")
 else:
     print(num," is a composite number")
+
+
