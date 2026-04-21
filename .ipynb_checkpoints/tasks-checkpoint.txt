@@ -1,0 +1,4 @@
+Learning Python is fun!
+This is a new line.
+This is another new lineThis is the append line.
+Task Completed!
