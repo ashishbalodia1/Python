@@ -1,0 +1,21 @@
+{
+  "accuracy": 1.0,
+  "n_samples": 900,
+  "n_train": 720,
+  "n_test": 180,
+  "features": [
+    "MDVP_Fo_Hz",
+    "MDVP_Fhi_Hz",
+    "MDVP_Flo_Hz",
+    "MDVP_Jitter_pct",
+    "Shimmer",
+    "NHR",
+    "HNR",
+    "RPDE",
+    "DFA",
+    "spread1",
+    "spread2",
+    "D2",
+    "PPE"
+  ]
+}

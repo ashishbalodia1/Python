@@ -1,0 +1,16 @@
+{
+  "accuracy": 0.9792,
+  "n_samples": 1200,
+  "n_train": 960,
+  "n_test": 240,
+  "features": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ]
+}

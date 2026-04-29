@@ -1,0 +1,21 @@
+{
+  "accuracy": 1.0,
+  "n_samples": 1200,
+  "n_train": 960,
+  "n_test": 240,
+  "features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ]
+}
