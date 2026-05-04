@@ -1,0 +1,72 @@
+# Vacuum Cleaner 
+"""
+        ---------
+       | VACUUM |
+        ---------
+            |
+            |
+         -------
+        |PIPE  |
+         -------
+            |
+         -------
+        |BRUSH |
+         -------
+
+
+    ---------------------
+    |   A   |    B      |
+    |       |           |
+    | DIRTY |  CLEAN    |
+    ---------------------
+"""
+
+# Function declaration
+def clean():
+    cost =0
+    pos = input("enter location of vaccum a/b : ")
+    a = int(input("enter status of a(0 for clean and 1 for dirty) : " ))
+    b = int(input("enter status of b(0 for clean  and 1 for dirty) : " ))
+    
+    if(pos=='a'):
+        if(a==1) :
+            print("a is dirty ")
+            cost = cost +1
+            print("a is cleaned , cost of cleaning : ",cost)
+            if(b==1):
+                cost = cost+1
+                print("b is dirty ")
+                print("cost for moving right ", cost)
+                cost = cost +1
+                print("b is cleaned , cost of cleaning : ",cost) 
+        else:
+            if(b==1):
+                cost = cost+1
+                print("b is dirty ")
+                print("cost for moving right ", cost)
+                cost = cost +1
+                print("b is cleaned , cost of cleaning : ",cost) 
+    else:
+        if(b==1) :
+            print("b is dirty ")
+            cost = cost +1
+            print("b is cleaned , cost of cleaning : ",cost)
+            if(a==1):
+                cost = cost+1
+                print("a is dirty ")
+                print("cost for moving left ", cost)
+                cost = cost +1
+                print("a is cleaned , cost of cleaning : ",cost)
+        else:
+            if(a==1):
+                cost = cost+1
+                print("b is dirty ")
+                print("cost for moving right ", cost)
+                cost = cost +1
+                print("b is cleaned , cost of cleaning : ",cost)
+
+        
+    print("total cost is " , cost) 
+
+#Function call
+clean()    
